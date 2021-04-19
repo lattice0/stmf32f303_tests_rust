@@ -4,4 +4,8 @@
 	"extensions": [
 		"rust-lang.rust"
 	],
+	"mounts": [
+		"source=/dev/bus/usb,target=/dev/bus/usb,type=bind,consistency=cached"
+	  ],
+	"runArgs": ["--privileged"],
 }
