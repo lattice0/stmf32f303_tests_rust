@@ -1,0 +1,7 @@
+{
+	"name": "Rust environment",
+	"dockerFile": "../docker/Dockerfile",
+	"extensions": [
+		"rust-lang.rust"
+	],
+}
