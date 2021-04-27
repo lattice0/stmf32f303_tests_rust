@@ -4,7 +4,7 @@ WORKDIR /home/project
 
 RUN export DEBIAN_FRONTEND=noninteractive && apt-get update\
     && apt-get install -y build-essential curl autoconf git m4 \
-    iproute2 clang libpq-dev clang gdb-multiarch
+    iproute2 clang libpq-dev clang gdb-multiarch libusb-1.0-0-dev pkg-config
 
 ENV PATH="/root/.cargo/bin:/usr/local/cmake/bin:${PATH}"
 
